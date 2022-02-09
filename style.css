@@ -2,57 +2,10 @@
     font-family: sans-serif;
 }
 
-/* .nav{
-    background-color: grey;
-    top: 0;
-    position: fixed;
-    width: 100%;
-}
-
-.nav ul{
-
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-    gap: 500px;
-    align-items: center;
-    
-} */
-.content{
-    padding: 2rem;
-    border-radius: 10px;
-    background-color:bisque;
-}
-.sidebar{
-    padding-left: 20px;
-    position: fixed;
-    width: 250px;
-    background-color: aquamarine;
-    height: 100%;
-}
-
-.sidebar ul{
-    list-style: none;
-    padding: 20px;
-}
-
-.sidebar ul li {
-    margin-left: -25px;
-    padding: 10px;
-    font-weight: 600;
-}
-.sidebar ul li:hover{
-    background-color: blue;
-    color: white;
-}
-
 .container{
-    /* margin-top: 50px; */
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    gap: 50px;
 }
 .avatar-div{
     display: flex;
