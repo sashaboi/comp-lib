@@ -18,7 +18,11 @@
     align-items: center;
     
 } */
-
+.content{
+    padding: 2rem;
+    border-radius: 10px;
+    background-color:bisque;
+}
 .sidebar{
     padding-left: 20px;
     position: fixed;
@@ -194,6 +198,7 @@
 .badge{
     display: flex;
     align-items: flex-end;
+    
 }
 
 .badge-green{
@@ -245,8 +250,77 @@
     font-size: 18px;
     color: white;
 }
-.content{
-    padding: 2rem;
-    border-radius: 10px;
-    background-color:bisque;
+.buttons-div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.button-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.primary-button{    
+    color: white;
+    font-size: 18px;
+    font-weight: 600;    
+    background-color: #FF3B30;
+    padding: 20px 20px 20px 20px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.primary-button:hover{
+    background-color: rgba(255, 59, 48, 0.75);
+    cursor: pointer;
+}
+.disabled-button{    
+    color: white;
+    font-size: 18px;
+    font-weight: 600;    
+    background-color: rgba(255, 59, 48, 0.5);
+    padding: 20px 20px 20px 20px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.alt-button{    
+    color: black;
+    border: solid rgba(0, 0, 0, 1);
+    font-size: 18px;
+    font-weight: 600;    
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.alt-button:hover{
+    border: solid rgba(0, 0, 0, .5);
+    cursor: pointer;
+}
+
+.disabled-alt-button{
+    color: rgba(0, 0, 0, .5);
+    
+    font-size: 18px;
+    font-weight: 600;    
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fontsize{
+    font-size: 48px;
 }
