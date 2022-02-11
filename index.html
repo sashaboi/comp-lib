@@ -24,6 +24,9 @@
         <h1>
             Lynchpin UI
         </h1>
+        <h3>
+            Base Elements
+        </h3>
         <ul>
             <li><a href="#Avatar">Avatar</a></li>
             <li><a href="#Alert">Alert</a></li>
@@ -32,6 +35,18 @@
             <li><a href="#Card">Card</a></li>
             <li><a href="#Image">Image</a></li>
             <li><a href="#input">Input</a></li>
+        </ul>
+        <h3>
+            p1 Elements
+        </h3>
+        <ul>
+            <li><a href="#text-utilities">Text Utilities</a> </li>
+            <li><a href="#list"> Lists</a></li>
+            <li><a href="#navbar"> Navigation</a></li>
+            <li><a href="#modal"> Modal</a></li>
+            <li><a href="#rating"> Rating</a> </li>
+            <li><a href="#snackbar"> Snackbar</a> </li>
+            <li>Simplified Grid</li>
         </ul>
     </div>
     <div class="container">
@@ -81,26 +96,26 @@
                 Alerts
             </h1>
             <div class=" content alert-div">
-    
-    
+
+
                 <div class="alert-info">
                     This is a info alert !
                 </div>
-    
+
                 <div class="alert-success">
                     This is a success alert !
                 </div>
-    
+
                 <div class="alert-warning">
                     This is a warning alert !
                 </div>
-    
+
                 <div class="alert-danger">
                     This is a danger alert !
                 </div>
             </div>
         </div>
-        
+
         <div id="Badge" class="badges-div">
             <h1>
                 Badges
@@ -163,7 +178,7 @@
                     Primary Button
                 </div>
                 <div class="button-alternate">
-                    Primary Button
+                    Alternate Button
                 </div>
                 <div class="button-disabled">
                     Disabled button
@@ -239,7 +254,7 @@
                 Card with cancel
             </h3>
             <div class="card-badge">
-                
+
                 <div class="icon">
                     <i class="fa fa-envelope" style="font-size:28px"></i>
                 </div>
@@ -306,7 +321,7 @@
                         Delete
                     </div>
                 </div>
-                
+
             </div>
             <div id="Image" class="image-round">
                 <h1>
@@ -345,10 +360,134 @@
                 <div class="input-alert-warning">
                     <i class="fa fa-lock" style="font-size:28px"></i> This password is not secure!
                 </div>
-                
+
+
+
             </div>
-            
+
         </div>
+        <div class="text-utils" id="text-utilities">
+            <h1>
+                Text Utilities
+            </h1>
+            <div class="text-content">
+                <h1>
+                    Use Hn to use heading text styling
+                </h1>
+                <h1>
+                    This is H1 text
+                </h1>
+                <h2>
+                    This is H2 text
+                </h2>
+                <h3>
+                    This is H3 text
+                </h3>
+                <h4>
+                    This is H4 text
+                </h4>
+                <h5>
+                    This is H5 text
+                </h5>
+                <h6>
+                    This is H6 text
+                </h6>
+            </div>
+            <h1>
+                Small text
+            </h1>
+            <div class="text-content-small">
+                <div class="text-s">
+                    This is text-s content
+                </div>
+                <div class="text-xs">
+                    This is text-s content
+                </div>
+            </div>
+        </div>
+        <div id="list" class="lists-normal">
+            <h1>
+                Normal Lists : with gap and centered
+            </h1>
+            <ul class="list-with-gap">
+                <li>Onkar Deshpande</li>
+                <li>Tushar Deshpande</li>
+                <li>Onkar Deshpande</li>
+                <li>Tushar Deshpande</li>
+                <li>Onkar Deshpande</li>
+                <li>Tushar Deshpande</li>
+            </ul>
+        </div>
+        <div class="list-notification">
+            <h1>
+                Lists for notification ( stacked )
+            </h1>
+            <div class="notification">
+                <ul>
+                    <li>
+                        <img class="avatar-circle avatar-xs" src="/assets/images/avatar-img.jpg" alt="">
+                        Onkar Deshpande said something
+                    </li>
+                    <li><img class="avatar-circle avatar-xs" src="/assets/images/avatar-img.jpg" alt="">
+                        Onkar Deshpande said another thing</li>
+                    <li><img class="avatar-circle avatar-xs" src="/assets/images/avatar-img.jpg" alt="">
+                        What could we say more </li>
+                    <li><img class="avatar-circle avatar-xs" src="/assets/images/avatar-img.jpg" alt="">
+                        Last notification</li>
+                </ul>
+            </div>
+        </div>
+        <div id="navbar" class="navbar">
+            <h1>Navigation</h1>
+            <ul>
+                <li>
+                    <h2>NavLogo</h2>
+                </li>
+                <ul class="rightmenu">
+                    <li>Item 1 </li>
+                    <li>Item 2 </li>
+                    <li><i class="fa fa-search" style="font-size:28px"></i></li>
+                </ul>
+            </ul>
+        </div>
+        <div id="modal" class="modal-layout">
+            <h1>
+                Modal Example
+            </h1>
+            <button class="button-alternate" id="myBtn">Open Modal</button>
+            <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+
+                    <p>Hello ! Modals are a way to show alerts over screen</p>
+                    <span class="close">&times;</span>
+                </div>
+
+            </div>
+        </div>
+        <div id="rating" class="rating">
+            <h1>Rating Elements</h1>
+            <div class="rating-stars">
+                <i class="fa fa-star" style="font-size:28px"></i>
+                <i class="fa fa-star" style="font-size:28px"></i>
+                <i class="fa fa-star" style="font-size:28px"></i>
+                <i class="fa fa-star" style="font-size:28px"></i>
+                <i class="fa fa-star" style="font-size:28px"></i>
+            </div>
+        </div>
+        <div id="snackbar" class="snackbar">
+            <h1>Snackbar</h1>
+            <div class="snackbar-content">
+                <p>
+                    Single line message with action.
+                </p>
+                <a href="">ACTION</a>
+            </div>
+
+        </div>
+        
+
     </div>
 
 
@@ -357,6 +496,8 @@
 
 
 
+
+    <script src="app.js"></script>
 </body>
 
 </html>
