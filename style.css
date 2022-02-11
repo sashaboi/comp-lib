@@ -787,3 +787,28 @@
     color: rgba(209, 139, 255, 0.6);
 }
 
+.half-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.third-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.grid-section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.half-grid h3{
+    padding: 20px;
+    border: #888888 solid 0.5px;
+}
+.third-grid h3{
+    padding: 20px;
+    border: #888888 solid 0.5px;
+}
