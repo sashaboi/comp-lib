@@ -1,5 +1,6 @@
 *{
     font-family: sans-serif;
+    scroll-behavior: smooth;
 }
 
 /* .nav{
@@ -41,6 +42,12 @@
 .sidebar ul li:hover{
     background-color: blue;
     color: white;
+}
+
+.sidebar ul li a {
+    color: inherit;
+    text-decoration: none;
+    display:block;
 }
 
 .container{
@@ -121,6 +128,11 @@
     height: 100px;
 }
 
+.alertlayout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .alert-div{
     display: flex;
@@ -494,4 +506,94 @@
     .sidebar {
       display: none !important;
     }
+  }
+
+  .image-round{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .responsive-img{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .image-round img{
+      
+      border-radius: 50%;
+  }
+  
+  .make-half{
+      width: 50%;
+  }
+
+  .input-normal{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .input-normal input{
+      width: 250px;
+      height: 50px;
+      border-radius: 10px;
+      font-size: 18px;
+      padding: 10px 20px 10px 20px;  
+      
+  }
+
+  .input-alert-danger{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    color: white;
+    background-color: rgba(255, 59, 48, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .input-alert-success{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    color: rgba(56, 104, 46, 0.8);
+    background-color: rgba(82, 255, 48, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .input-alert-info{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    color: rgba(56, 104, 46, 0.8);
+    background-color: rgba(82, 255, 48, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .input-alert-info{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    color: rgba(41, 120, 134, 0.8);
+    background-color: rgba(48, 224, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .input-alert-warning{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    color: rgba(126, 98, 22, 0.8);
+    background-color: rgba(255, 200, 48, 0.8);
+    padding: 10px;
+    border-radius: 5px;
   }

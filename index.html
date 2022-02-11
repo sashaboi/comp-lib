@@ -25,17 +25,17 @@
             Lynchpin UI
         </h1>
         <ul>
-            <li>Avatar</li>
-            <li>Alert</li>
-            <li>Badge</li>
-            <li>Button</li>
-            <li>Card</li>
-            <li>Image</li>
-            <li>Input</li>
+            <li><a href="#Avatar">Avatar</a></li>
+            <li><a href="#Alert">Alert</a></li>
+            <li><a href="#Badge">Badge</a></li>
+            <li><a href="#Button">Button</a></li>
+            <li><a href="#Card">Card</a></li>
+            <li><a href="#Image">Image</a></li>
+            <li><a href="#input">Input</a></li>
         </ul>
     </div>
     <div class="container">
-        <div class="avatar-div">
+        <div id="Avatar" class="avatar-div">
             <h1>
                 Avatars
             </h1>
@@ -76,29 +76,32 @@
             </div>
 
         </div>
-        <h1>
-            Alerts
-        </h1>
-        <div class=" content alert-div">
-
-
-            <div class="alert-info">
-                This is a info alert !
-            </div>
-
-            <div class="alert-success">
-                This is a success alert !
-            </div>
-
-            <div class="alert-warning">
-                This is a warning alert !
-            </div>
-
-            <div class="alert-danger">
-                This is a danger alert !
+        <div id="Alert" class="alertlayout">
+            <h1>
+                Alerts
+            </h1>
+            <div class=" content alert-div">
+    
+    
+                <div class="alert-info">
+                    This is a info alert !
+                </div>
+    
+                <div class="alert-success">
+                    This is a success alert !
+                </div>
+    
+                <div class="alert-warning">
+                    This is a warning alert !
+                </div>
+    
+                <div class="alert-danger">
+                    This is a danger alert !
+                </div>
             </div>
         </div>
-        <div class="badges-div">
+        
+        <div id="Badge" class="badges-div">
             <h1>
                 Badges
             </h1>
@@ -151,7 +154,7 @@
 
 
         </div>
-        <div class="buttons-div">
+        <div id="Button" class="buttons-div">
             <h1>
                 Button
             </h1>
@@ -175,7 +178,7 @@
 
             </div>
         </div>
-        <div class="cards-div">
+        <div id="Card" class="cards-div">
             <h1>
                 Cards
             </h1>
@@ -305,7 +308,45 @@
                 </div>
                 
             </div>
-            
+            <div id="Image" class="image-round">
+                <h1>
+                    Round Image
+                </h1>
+                <img class="make-half" src="/assets/images/avatar-img.jpg" alt="">
+            </div>
+            <div class="responsive-img ">
+                <h1>
+                    Responsive Image
+                </h1>
+                <img class="make-half" src="/assets/images/avatar-img.jpg" alt="">
+            </div>
+            <div id="input" class="input-normal">
+                <h1>
+                    Normal Input
+                </h1>
+                <input type="text" placeholder="Enter your input here..">
+                <h1>
+                    Email Input
+                </h1>
+                <input type="email" placeholder="myname@domain.com">
+                <h1>
+                    Input alerts
+                </h1>
+                <input type="email" placeholder="myname@domain.com">
+                <div class="input-alert-danger">
+                    <i class="fa fa-exclamation" style="font-size:28px"></i> Please Enter a valid email id
+                </div>
+                <div class="input-alert-success">
+                    <i class="fa fa-check" style="font-size:28px"></i> This validation is correct
+                </div>
+                <div class="input-alert-info">
+                    <i class="fa fa-save" style="font-size:28px"></i> Your data is being auto saved
+                </div>
+                <div class="input-alert-warning">
+                    <i class="fa fa-lock" style="font-size:28px"></i> This password is not secure!
+                </div>
+                
+            </div>
             
         </div>
     </div>
