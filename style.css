@@ -812,3 +812,20 @@
     padding: 20px;
     border: #888888 solid 0.5px;
 }
+
+.code-snippet{
+    width: 100%;
+    padding: 1rem;
+}
+
+.align-center{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.line-div{
+    border: solid black 1px;
+    width: 50%;
+}
