@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component library</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <!-- <div class="nav">
+        <ul>
+            <li>Logo</li>
+            <li>Github link</li>
+            
+        </ul>
+    </div> -->
+
+    <div class="sidebar">
+        <h1>
+            <a href="index.html">Lynchpin UI</a>
+
+        </h1>
+        <h3>
+            Base Elements
+        </h3>
+        <ul>
+            <li><a href="#Avatar">Avatar</a></li>
+            <li><a href="#Alert">Alert</a></li>
+            <li><a href="#Badge">Badge</a></li>
+            <li><a href="#Button">Button</a></li>
+            <li><a href="#Card">Card</a></li>
+            <li><a href="#Image">Image</a></li>
+            <li><a href="#input">Input</a></li>
+        </ul>
+        <h3>
+            p1 Elements
+        </h3>
+        <ul>
+            <li><a href="#text-utilities">Text Utilities</a> </li>
+            <li><a href="#list"> Lists</a></li>
+            <li><a href="#navbar"> Navigation</a></li>
+            <li><a href="#modal"> Modal</a></li>
+            <li><a href="#rating"> Rating</a> </li>
+            <li><a href="#snackbar"> Snackbar</a> </li>
+            <li><a href="#grid">Simplified Grid</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div id="Avatar" class="avatar-div">
+            <h1>
+                Avatars
+            </h1>
+            <h3>
+                Avatar-Circle
+            </h3>
+            <div class=" content avatar-content">
+
+                <img class="avatar-circle avatar-xs" src="../assets/images/avatar-img.jpg" alt="avatarpic">
+                <img class="avatar-circle avatar-s" src="../assets/images/avatar-img.jpg" alt="avatarpic">
+                <img class="avatar-circle avatar-l" src="../assets/images/avatar-img.jpg" alt="avatarpic">
+                <img class="avatar-circle avatar-xl" src="../assets/images/avatar-img.jpg" alt="avatarpic">
+
+
+            </div>
+            <div class="code-snippet align-center">
+                <h3>
+                    Code example
+                </h3>
+                <h5>Use class avatar-circle for image and avatar-xl / l / s /xs for sizing</h5>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar-circle%2520avatar-xl%2522%2520src%253D%2522%2522%2520%253E"
+                    style="width: 100%; height: 188px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <h3>
+                Avatar-square
+            </h3>
+            <div class=" content avatar-content">
+
+                <img class="avatar-square avatar-xs" src="../assets/images/avatar-img.jpg" alt="avatarpic">
+                <img class="avatar-square avatar-s" src="../assets/images/avatar-img.jpg" alt="avatarpic">
+                <img class="avatar-square avatar-l" src="../assets/images/avatar-img.jpg" alt="avatarpic">
+                <img class="avatar-square avatar-xl" src="../assets/images/avatar-img.jpg" alt="avatarpic">
+
+
+            </div>
+            <div class="code-snippet align-center">
+                <h3>
+                    Code example
+                </h3>
+                <h5>Use class avatar-square for image and avatar-xl / l / s /xs for sizing</h5>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar-square%2520avatar-xl%2522%2520src%253D%2522%2522%2520%253E"
+                    style="width: 100%; height: 188px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <h3>
+                Avatar-Text
+            </h3>
+            <div class=" content avatar-content">
+
+                <div class="text-avatar-circle text-avatar-cirle-xs">OD</div>
+                <div class="text-avatar-circle text-avatar-cirle-s">OD</div>
+                <div class="text-avatar-circle text-avatar-cirle-l">OD</div>
+                <div class="text-avatar-circle text-avatar-cirle-xl">OD</div>
+
+            </div>
+            <div class="code-snippet align-center">
+                <h3>
+                    Code example
+                </h3>
+                <h5>Use class text-avatar-square for image and text-avatar-circle-xl / l / s /xs for sizing</h5>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522text-avatar-circle%2520text-avatar-cirle-xs%2522%253EOD%253C%252Fdiv%253E"
+                    style="width:100%; height: 188px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+        </div>
+        <div class="line-div">
+        </div>
+        <div id="Alert" class="alertlayout">
+            <h1>
+                Alerts
+            </h1>
+            <div class=" content alert-div">
+
+
+                <div class="alert-info">
+                    This is a info alert !
+                </div>
+
+                <div class="alert-success">
+                    This is a success alert !
+                </div>
+
+                <div class="alert-warning">
+                    This is a warning alert !
+                </div>
+
+                <div class="alert-danger">
+                    This is a danger alert !
+                </div>
+            </div>
+            <div class="code-snippet align-center">
+                <h3>
+                    Code example
+                </h3>
+                <h5>Use class alert-info / success / warning / danger for alerts</h5>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert-info%2522%253E%250A%2520%2520%2520%2520%2520This%2520is%2520a%2520info%2520alert%2520%21%250A%253C%252Fdiv%253E"
+                    style="width:100%; height: 225px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </div>
+        <div class="line-div">
+
+        </div>
+        <div id="Badge" class="badges-div">
+            <h1>
+                Badges
+            </h1>
+            <h3>
+                Badge activity
+            </h3>
+            <div class="content badge-content">
+                <div class="badge">
+                    <img class="avatar-circle avatar-l" src="../assets/images/avatar-img.jpg" alt="avatarpic">
+                    <div class="badge-green"></div>
+
+                </div>
+                <div class="badge">
+                    <img class="avatar-circle avatar-l" src="../assets/images/avatar-img.jpg" alt="avatarpic">
+                    <div class="badge-red"></div>
+
+                </div>
+                <div class="badge">
+                    <img class="avatar-circle avatar-l" src="../assets/images/avatar-img.jpg" alt="avatarpic">
+                    <div class="badge-orange"></div>
+
+                </div>
+                <div class="badge">
+                    <img class="avatar-circle avatar-l" src="../assets/images/avatar-img.jpg" alt="avatarpic">
+                    <div class="badge-grey"></div>
+
+                </div>
+            </div>
+
+            <div class="code-snippet align-center">
+                <h3>Code Example</h3>
+                <h5>Use class badge-grey / red /green /yellow for colors</h5>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-circle%2522%2520src%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-grey%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 100%; height: 243px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <h3>
+                Badge with numbers
+            </h3>
+            <div class=" content badge-content ">
+                <div class="badge">
+                    <i class="fa fa-envelope" style="font-size:48px"></i>
+                    <div class="badge-num">2</div>
+                </div>
+
+                <div class="badge">
+                    <i class="fa fa-shopping-cart" style="font-size:48px"></i>
+                    <div class="badge-num">9</div>
+                </div>
+                <div class="badge">
+                    <i class="fa fa-heart" style="font-size:48px"></i>
+                    <div class="badge-num">4</div>
+                </div>
+                <div class="badge">
+                    <i class="fa fa-bell" style="font-size:48px"></i>
+                    <div class="badge-num">4</div>
+                </div>
+            </div>
+            <div class="code-snippet align-center">
+                <h3>
+                    Code example
+                </h3>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-envelope%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-num%2522%253E2%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 100%; height: 300px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+
+
+
+        </div>
+        <div class="line-div">
+
+        </div>
+        <div id="Button" class="buttons-div">
+            <h1>
+                Button
+            </h1>
+            <div class=" content alert-div">
+                <div class="button-primary">
+                    Primary Button
+                </div>
+                <div class="button-alternate">
+                    Alternate Button
+                </div>
+                <div class="button-disabled">
+                    Disabled button
+                </div>
+                <a href="https://github.com/sashaboi/comp-lib" target="_blank">
+                    <div class="button-fixed">
+
+                        <i class="fa fa-github"></i>
+
+                    </div>
+                </a>
+
+            </div>
+            <div class="code-snippet align-center">
+                <h3>
+                    Code example
+                </h3>
+                <h5>
+                    Use button-primary / alternate / disabled / fixed
+                </h5>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522button-primary%2522%253E%250A%2520%2520%2520%2520%2520Primary%2520Button%250A%253C%252Fdiv%253E"
+                    style="width: 100%; height: 225px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+        </div>
+        <div class="line-div">
+
+        </div>
+        <div id="Card" class="cards-div">
+            <h1>
+                Cards
+            </h1>
+            <h3>
+                Horizontal Card
+            </h3>
+            <div class="card-basic">
+                <div class="card-img badge ">
+                    <img class="avatar-circle avatar-l" src="../assets/images/avatar-img.jpg" alt="avatarpic">
+                    <div class="badge-green"></div>
+                </div>
+                <div class="card-desc">
+                    <span>Onkar Deshpande </span> commented on your post: "You are looking so hot 😍😍😍"
+                </div>
+                <div class="card-options">
+                    <i class="fa fa-link" style="font-size:28px"></i>
+                </div>
+
+            </div>
+            <div class="code-snippet align-center">
+                <h3>
+                    Code example
+                </h3>
+
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-basic%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-img%2520badge%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-circle%2520avatar-l%2522%2520src%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-green%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-desc%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EBold%2520text%2520%253C%252Fspan%253E%2520other%2520text%2522%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-options%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-link%2522%2520%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%253C%252Fdiv%253E"
+                    style="width: 100%; height: 411px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+
+            <h3>
+                Vertical Card
+            </h3>
+            <div class="card-vertical">
+                <div class="card-profilepic">
+                    <img class="profilepic" src="/assets/images/avatar-img.jpg" alt="">
+                </div>
+                <div class="card-nameinfo">
+                    <h2>
+                        Onkar Deshpande
+                    </h2>
+
+                </div>
+                <div class="card-buttons">
+                    <div class="button-primary">
+                        Confirm
+                    </div>
+                    <div class="button-alternate">
+                        Delete
+                    </div>
+                </div>
+            </div>
+            <div class="code-snippet align-center">
+                <h3>
+                    Code example
+                </h3>
+
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-vertical%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-profilepic%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522profilepic%2522%2520src%253D%2522%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-nameinfo%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Title%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fh2%253E%250A%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522button-primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Confirm%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522button-alternate%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Delete%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 100%; height: 523px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+
+            </div>
+            <h3>
+                Card with badges
+            </h3>
+
+            <div class="card-badge">
+                <div class="badge-green-card"></div>
+                <div class="icon">
+                    <i class="fa fa-envelope" style="font-size:28px"></i>
+                </div>
+                <div class="desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
+
+                </div>
+            </div>
+            <div class="code-snippet align-center">
+                <h3>
+                    Code example
+                </h3>
+
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-badge%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-green-card%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-envelope%2522%2520style%253D%2522font-size%253A28px%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522desc%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Veniam%252C%250A%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 740px; height: 355px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+
+            </div>
+
+            <h3>
+                Card with cancel
+            </h3>
+            <div class="card-badge">
+
+                <div class="icon">
+                    <i class="fa fa-envelope" style="font-size:28px"></i>
+                </div>
+                <div class="desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
+
+                </div>
+                <i class="fa fa-close card-close" style="font-size:28px"></i>
+            </div>
+
+            <div class="code-snippet align-center">
+                <h3>
+                    Code example
+                </h3>
+
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-badge%2522%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-envelope%2522%2520style%253D%2522font-size%253A28px%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522desc%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Veniam%252C%250A%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-close%2520card-close%2522%2520style%253D%2522font-size%253A28px%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E"
+                    style="width: 740px; height: 374px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+
+            </div>
+            <h3>
+                Card with Text only
+            </h3>
+            <div class="card-text">
+                <div class="card-text-title">
+                    <h3>
+                        Onkar Deshpande
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                </div>
+                <div class="horiline">
+
+                </div>
+                <div class="card-text-btn">
+                    <p>Link1</p>
+                    <p>Link2</p>
+                </div>
+            </div>
+            <div class="code-snippet align-center">
+                <h3>
+                    Code example
+                </h3>
+
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-text%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text-title%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Onkar%2520Deshpande%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522horiline%2522%253E%250A%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ELink1%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ELink2%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 698px; height: 467px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+
+            </div>
+            <h3>
+                Card with Shadows
+            </h3>
+            <div class="card-basic lightmode">
+                <div class="card-img badge ">
+                    <img class="avatar-circle avatar-l" src="../assets/images/avatar-img.jpg" alt="avatarpic">
+                    <div class="badge-green"></div>
+                </div>
+                <div class="card-desc">
+                    <span>Onkar Deshpande </span> commented on your post: "You are looking so hot 😍😍😍"
+                </div>
+                <div class="card-options">
+                    <i class="fa fa-link" style="font-size:28px"></i>
+                </div>
+
+            </div>
+            <div class="code-snippet align-center">
+                <h3>
+                    Code example
+                </h3>
+
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-basic%2520lightmode%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-img%2520badge%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-circle%2520avatar-l%2522%2520src%253D%2522..%252Fassets%252Fimages%252Favatar-img.jpg%2522%2520alt%253D%2522avatarpic%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-green%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-desc%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EOnkar%2520Deshpande%2520%253C%252Fspan%253E%2520commented%2520on%2520your%2520post%253A%2520%2522You%2520are%2520looking%2520so%2520hot%2520%25F0%259F%2598%258D%25F0%259F%2598%258D%25F0%259F%2598%258D%2522%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-options%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-link%2522%2520style%253D%2522font-size%253A28px%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%253C%252Fdiv%253E"
+                    style="width: 959px; height: 411px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+
+            </div>
+            <h3>
+                Card with Text Overlay
+            </h3>
+            <div class="card-vertical">
+                <span class="text-overlay">Overlay Text</span>
+                <div class="card-profilepic">
+                    <img class="profilepic" src="/assets/images/avatar-img.jpg" alt="">
+                </div>
+                <div class="card-nameinfo">
+                    <h2>
+                        Onkar Deshpande
+                    </h2>
+
+                </div>
+                <div class="card-buttons">
+                    <div class="button-primary">
+                        Confirm
+                    </div>
+                    <div class="button-alternate">
+                        Delete
+                    </div>
+                </div>
+
+            </div>
+            <div class="code-snippet align-center">
+                <h3>
+                    Code example
+                </h3>
+
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-vertical%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522text-overlay%2522%253EOverlay%2520Text%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-profilepic%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522profilepic%2522%2520src%253D%2522%252Fassets%252Fimages%252Favatar-img.jpg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-nameinfo%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Onkar%2520Deshpande%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fh2%253E%250A%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522button-primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Confirm%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522button-alternate%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Delete%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%253C%252Fdiv%253E"
+                    style="width: 765px; height: 560px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+
+            </div>
+            <div id="Image" class="image-round">
+                <h1>
+                    Round Image
+                </h1>
+                <img class="make-half" src="/assets/images/avatar-img.jpg" alt="">
+            </div>
+            <div class="code-snippet align-center">
+                <h3>
+                    Code example
+                </h3>
+
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520id%253D%2522Image%2522%2520class%253D%2522image-round%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522%2522%2520alt%253D%2522%2522%253E%250A%253C%252Fdiv%253E"
+                    style="width: 437px; height: 225px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+
+            </div>
+            <div class="responsive-img ">
+                <h1>
+                    Responsive Image
+                </h1>
+                <img class="make-half" src="/assets/images/avatar-img.jpg" alt="">
+            </div>
+            <div class="code-snippet align-center">
+                <h3>
+                    Code example
+                </h3>
+
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520id%253D%2522Image%2522%2520class%253D%2522responsive-img%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522%2522%2520alt%253D%2522%2522%253E%250A%253C%252Fdiv%253E"
+                    style="width: 462px; height: 225px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+
+            </div>
+            <div id="input" class=" content input-normal">
+                <h1>
+                    Normal Input
+                </h1>
+                <input type="text" placeholder="Enter your input here..">
+                <h1>
+                    Email Input
+                </h1>
+                <input type="email" placeholder="myname@domain.com">
+                <div class="code-snippet align-center">
+                    <h3>
+                        Code example
+                    </h3>
+
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520id%253D%2522input%2522%2520class%253D%2522input-normal%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520placeholder%253D%2522Enter%2520your%2520input%2520here..%2522%253E%250A%253C%252Fdiv%253E"
+                        style="width: 656px; height: 225px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+
+                </div>
+                <h1>
+                    Input alerts
+                </h1>
+                
+                
+
+                <div class="input-alert-danger">
+                    <i class="fa fa-exclamation" style="font-size:28px"></i> Please Enter a valid email id
+                </div>
+                <div class="input-alert-success">
+                    <i class="fa fa-check" style="font-size:28px"></i> This validation is correct
+                </div>
+                <div class="input-alert-info">
+                    <i class="fa fa-save" style="font-size:28px"></i> Your data is being auto saved
+                </div>
+                <div class="input-alert-warning">
+                    <i class="fa fa-lock" style="font-size:28px"></i> This password is not secure!
+                </div>
+                <div class="code-snippet align-center">
+                    <h3>
+                        Code example
+                    </h3>
+                    <h5>
+                        You can use input-alert-success / info / warning / danger
+                    </h5>
+
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-alert-danger%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-exclamation%2522%253E%253C%252Fi%253E%2520Please%2520Enter%2520a%2520valid%2520email%2520id%250A%253C%252Fdiv%253E"
+                        style="width: 698px; height: 225px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+
+            </div>
+
+        </div>
+        <div class="text-utils" id="text-utilities">
+            <h1>
+                Text Utilities
+            </h1>
+            <div class=" content text-content">
+                <h1>
+                    Use Hn to use heading text styling
+                </h1>
+                <h1>
+                    This is H1 text
+                </h1>
+                <h2>
+                    This is H2 text
+                </h2>
+                <h3>
+                    This is H3 text
+                </h3>
+                <h4>
+                    This is H4 text
+                </h4>
+                <h5>
+                    This is H5 text
+                </h5>
+                <h6>
+                    This is H6 text
+                </h6>
+            </div>
+            <h1>
+                Small text
+            </h1>
+            <div class=" content text-content-small">
+                <div class="text-s">
+                    This is text-s content
+                </div>
+                <div class="text-xs">
+                    This is text-s content
+                </div>
+            </div>
+        </div>
+        <div id="list" class="lists-normal">
+            <h1>
+                Normal Lists : with gap and centered
+            </h1>
+            <ul class=" content list-with-gap">
+                <li>Onkar Deshpande</li>
+                <li>Tushar Deshpande</li>
+                <li>Onkar Deshpande</li>
+                <li>Tushar Deshpande</li>
+                <li>Onkar Deshpande</li>
+                <li>Tushar Deshpande</li>
+            </ul>
+        </div>
+        <div class="code-snippet align-center">
+            <h3>
+                Code example
+            </h3>
+
+
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list-with-gap%2522%253E%250A%2520%2520%2520%2520%253Cli%253ELorem%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EImpsum%253C%252Fli%253E%250A%2520%2520%2520%2520%250A%253C%252Ful%253E"
+                style="width: 100%; height: 262px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+        <div class="list-notification">
+            <h1>
+                Lists for notification ( stacked )
+            </h1>
+            <div class="content notification">
+                <ul>
+                    <li>
+                        <img class="avatar-circle avatar-xs" src="/assets/images/avatar-img.jpg" alt="">
+                        Onkar Deshpande said something
+                    </li>
+                    <li><img class="avatar-circle avatar-xs" src="/assets/images/avatar-img.jpg" alt="">
+                        Onkar Deshpande said another thing</li>
+                    <li><img class="avatar-circle avatar-xs" src="/assets/images/avatar-img.jpg" alt="">
+                        What could we say more </li>
+                    <li><img class="avatar-circle avatar-xs" src="/assets/images/avatar-img.jpg" alt="">
+                        Last notification</li>
+                </ul>
+            </div>
+            <div class="code-snippet align-center">
+                <h3>
+                    Code example
+                </h3>
+
+
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522notification%2522%253E%250A%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EOnkar%2520Deshpande%2520said%2520something%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EOnkar%2520Deshpande%2520said%2520another%2520thing%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Ful%253E%250A%253C%252Fdiv%253E"
+                    style="width: 521px; height: 318px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </div>
+        <div id="navbar" class="navbar">
+            <h1>Navigation</h1>
+            <ul>
+                <li>
+                    <h2>NavLogo</h2>
+                </li>
+                <ul class="rightmenu">
+                    <li>Item 1 </li>
+                    <li>Item 2 </li>
+                    <li><i class="fa fa-search" style="font-size:28px"></i></li>
+                </ul>
+            </ul>
+        </div>
+        <div id="modal" class="modal-layout">
+            <h1>
+                Modal Example
+            </h1>
+            <button class="button-alternate" id="myBtn">Open Modal</button>
+            <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class=" content modal-content">
+
+                    <p>Hello ! Modals are a way to show alerts over screen</p>
+                    <span class="close">&times;</span>
+                </div>
+
+            </div>
+        </div>
+        <div id="rating" class="content rating">
+            <h1>Rating Elements</h1>
+            <div class="rating-stars">
+                <i class="fa fa-star" style="font-size:28px"></i>
+                <i class="fa fa-star" style="font-size:28px"></i>
+                <i class="fa fa-star" style="font-size:28px"></i>
+                <i class="fa fa-star" style="font-size:28px"></i>
+                <i class="fa fa-star" style="font-size:28px"></i>
+            </div>
+        </div>
+        <div id="snackbar" class="snackbar">
+            <h1>Snackbar</h1>
+            <div class=" content snackbar-content">
+                <p>
+                    Single line message with action.
+                </p>
+                <a href="">ACTION</a>
+            </div>
+            <div class="code-snippet align-center">
+                <h3>
+                    Code example
+                </h3>
+
+
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522snackbar-content%2522%253E%250A%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Single%2520line%2520message%2520with%2520action.%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%253EACTION%253C%252Fa%253E%250A%253C%252Fdiv%253E"
+                    style="width: 470px; height: 281px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+        </div>
+        <div id="grid" class="grid-section">
+            <h1>
+                Simple half grid
+            </h1>
+            <div class=" content half-grid">
+                <h3>My name is Onkar </h3>
+                <h3>This is my grid</h3>
+            </div>
+            <div class="code-snippet align-center">
+                <h3>
+                    Code example
+                </h3>
+
+
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522half-grid%2522%253E%250A%2520%2520%2520%2520%253Ch3%253EMy%2520name%2520is%2520Onkar%2520%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Ch3%253EThis%2520is%2520my%2520grid%253C%252Fh3%253E%250A%253C%252Fdiv%253E"
+                    style="width: 100%; height: 243px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </div>
+        <div id="grid" class=" content grid-section">
+            <h1>
+                Simple Thirds grid
+            </h1>
+            <div class="third-grid">
+                <h3>My name is Onkar </h3>
+                <h3>This is my grid</h3>
+                <h3>This is the third segment</h3>
+            </div>
+            <div class="code-snippet align-center">
+                <h3>
+                    Code example
+                </h3>
+
+
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522third-grid%2522%253E%250A%2520%2520%2520%2520%253Ch3%253EMy%2520name%2520is%2520Onkar%2520%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Ch3%253EThis%2520is%2520my%2520grid%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Ch3%253EThis%2520is%2520the%2520third%2520segment%253C%252Fh3%253E%250A%253C%252Fdiv%253E"
+                    style="width: 100%; height: 262px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
