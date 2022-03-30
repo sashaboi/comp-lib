@@ -324,7 +324,7 @@
 }
 
 .button-disabled:hover {
-    cursor: default;
+    cursor:not-allowed;
 }
 
 .button-alternate:hover {
@@ -553,7 +553,12 @@
     align-items: center;
     flex-direction: column;
 }
-
+.respi{
+    width: 100%;
+}
+.forborder{
+    border: 1px solid black;
+}
 .image-round img {
 
     border-radius: 50%;
@@ -794,8 +799,15 @@
     gap: 20px;
 }
 .third-grid{
+    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.random-grid{
+    width: 500px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
     gap: 20px;
 }
 
@@ -867,4 +879,179 @@ a:visited{
 
 .sidebar a{
     color: white;
+}
+
+.horizontal-card-new{
+    width: 600px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    background-color: rgba(253, 129, 122, 0.75);
+    padding: 2rem;
+    border-radius: 1rem;
+    border: solid 0.6rem rgba(241, 71, 62, 0.75);
+}
+.horizontal-card-img{
+    width: 150px;
+    border-radius: 50%;
+    border: solid 5px rgba(241, 71, 62, 0.75);
+}
+.card-img-section{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.card-rank{
+    background-color:rgba(241, 71, 62, 0.75) ;
+    color: white;
+    padding: 0.8rem 0.8rem 0.8rem 0.8rem;
+    border-radius: 1rem;
+    font-weight: 600;
+}
+.card-rank span{
+    background-color: rgba(253, 13, 0, 0.75) ;
+    padding: 0.5rem ;
+    border-radius: 1rem;
+}
+.card-desc-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.card-title{
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    
+}
+.contact-me-card i {
+    font-size: 2rem;
+    color: white;
+    z-index: 2;
+    
+}
+.contact-me-card i:hover{
+    cursor: pointer;
+    color: rgb(110, 7, 2);
+}
+.contact-me-card{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    background-color:rgba(241, 71, 62, 0.75) ;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.card-desc-new{
+    color: white;
+    background-color:rgba(187, 74, 68, 0.5) ;
+    padding: 0.8rem;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.product-card img{
+    width: 300px;
+}
+.title{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+.product-card{
+    width: 300px;
+    
+    border-radius: 2rem;
+    background-color: rgba(128, 128, 128,0.18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    padding-bottom: 2rem;
+}
+.info-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 8rem;
+    padding-top: 0.5rem;
+}
+.res{
+    background-color: black;
+    padding: 0.2rem;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 0.2rem;
+}
+.rating{
+    color: rgb(255, 136, 0);
+    font-size: 1.2rem;
+}
+.weight{
+    border: 1px solid black;
+    padding: 0.1rem;
+}
+.desc-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.1rem;
+
+}
+
+.price{
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    color: white;
+    background-color:rgba(1, 1, 1,0.8) ;
+    border-radius: 0.5rem;
+    margin-bottom: 0.2rem;
+}
+.addtocart{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#40a9ff,#1890ff);
+    color: white;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+}
+.addtocart:hover{
+    cursor: pointer;
+    background: linear-gradient(#69c0ff,#40a9ff);
+}
+.before-card{
+    display: flex;
+
+}
+
+.badge-drone{
+    margin-left: -1.9rem;
+    background-color: black;
+    padding: 0.2rem;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 0.2rem;
+    height:min-content;
+}
+.before-card:hover{
+    transition: transform .2s;
+    transform: scale(1.02);
 }

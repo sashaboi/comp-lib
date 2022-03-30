@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component library</title>
+    <title> Component library</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -289,34 +289,39 @@
             <h1>
                 Cards
             </h1>
-            <h3>
-                Horizontal Card
-            </h3>
-            <div class="card-basic">
-                <div class="card-img badge ">
-                    <img class="avatar-circle avatar-l" src="../assets/images/avatar-img.jpg" alt="avatarpic">
-                    <div class="badge-green"></div>
-                </div>
-                <div class="card-desc">
-                    <span>Onkar Deshpande </span> commented on your post: "You are looking so hot 😍😍😍"
-                </div>
-                <div class="card-options">
-                    <i class="fa fa-link" style="font-size:28px"></i>
-                </div>
 
-            </div>
-            <div class="code-snippet align-center">
+            <div class="card-horizontal-container  align-center">
                 <h3>
-                    Code example
+                    Horizontal Card
                 </h3>
+                <div class="horizontal-card-new">
+                    <div class="card-img-section">
+                        <div class="card-rank">
+                            Rank : <span>20</span>
+                        </div>
+                        <img class="horizontal-card-img" src="../assets/images/avatar-img.jpg" alt="avatarpic">
+                        <div class="card-rank">
+                            Points : <span>50</span>
+                        </div>
+                    </div>
+                    <div class="card-desc-section">
+                        <div class="card-title">
+                            Onkar Deshpande
+                        </div>
+                        <div class="card-desc-new">
+                            My name is Onkar and I am a 28 year of business man / Neog Camp student. I have only one
+                            goal right now. Finish the camp by June and apply for Roc8 and get a job.
+                        </div>
+                        <div class="contact-me-card">
+                            <a href="https://twitter.com/i_am_onkar" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.linkedin.com/in/onkardeshpandeboltpics/" target="_blank"><i
+                                    class="fa fa-linkedin"></i></a>
 
-                <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-basic%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-img%2520badge%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-circle%2520avatar-l%2522%2520src%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-green%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-desc%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EBold%2520text%2520%253C%252Fspan%253E%2520other%2520text%2522%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-options%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-link%2522%2520%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%253C%252Fdiv%253E"
-                    style="width: 100%; height: 411px; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
+
+                        </div>
+                    </div>
+                </div>
             </div>
-
 
             <h3>
                 Vertical Card
@@ -357,24 +362,54 @@
                 Card with badges
             </h3>
 
-            <div class="card-badge">
-                <div class="badge-green-card"></div>
-                <div class="icon">
-                    <i class="fa fa-envelope" style="font-size:28px"></i>
-                </div>
-                <div class="desc">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
+            <div class='before-card'>
+                <div class='product-card'>
+
+                    <div class="img-section">
+                        <img src='./assets/images/drone.png' alt="drone" />
+                    </div>
+                    <div class="desc-section">
+                        <div class="title">
+                            Phantom 4
+                        </div>
+                        <div class="rating">
+
+                        </div>
+                        <div class="info-section">
+                            <div class='res'>
+                                4K
+                            </div>
+                            <div class='weight'>
+                                1200g
+                            </div>
+
+                        </div>
+                        <div class='price'>
+                            $2000
+                        </div>
+                        <button class="addtocart">
+
+                            Add to Cart
+
+                        </button>
+                    </div>
 
                 </div>
+
+                <div class="badge-drone">Pro</div>
+
             </div>
+
+
+
             <div class="code-snippet align-center">
                 <h3>
                     Code example
                 </h3>
 
                 <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-badge%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-green-card%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-envelope%2522%2520style%253D%2522font-size%253A28px%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522desc%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Veniam%252C%250A%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-                    style="width: 740px; height: 355px; border:0; transform: scale(1); overflow:hidden;"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%27before-card%27%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%27product-card%27%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522img-section%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%27%27%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522desc-section%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522title%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Phantom%25204%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522rating%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522info-section%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%27res%27%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%25204K%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%27weight%27%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%25201200g%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%27price%27%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%25242000%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522addtocart%2522%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Add%2520to%2520Cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253EPro%253C%252Fdiv%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fdiv%253E"
+                    style="width: 563px; height: 858px; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
 
@@ -530,7 +565,13 @@
                 <h1>
                     Responsive Image
                 </h1>
-                <img class="make-half" src="/assets/images/avatar-img.jpg" alt="">
+                Image fits in 1 : 2 : 3 grid
+                <div class="random-grid">
+                    <h3 class="forborder"><img class="respi" src="/assets/images/avatar-img.jpg" alt=""></h3>
+                    <h3 class="forborder"><img class="respi" src="/assets/images/avatar-img.jpg" alt=""></h3>
+                    <h3 class="forborder"><img class="respi" src="/assets/images/avatar-img.jpg" alt=""></h3>
+                </div>
+
             </div>
             <div class="code-snippet align-center">
                 <h3>
@@ -538,10 +579,10 @@
                 </h3>
 
                 <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520id%253D%2522Image%2522%2520class%253D%2522responsive-img%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522%2522%2520alt%253D%2522%2522%253E%250A%253C%252Fdiv%253E"
-                    style="width: 462px; height: 225px; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522respi%2522%2520src%253D%2522%2522%2520alt%253D%2522%2522%253E"
+  style="width: 411px; height: 188px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
 
 
             </div>
@@ -570,8 +611,8 @@
                 <h1>
                     Input alerts
                 </h1>
-                
-                
+
+
 
                 <div class="input-alert-danger">
                     <i class="fa fa-exclamation" style="font-size:28px"></i> Please Enter a valid email id
@@ -631,6 +672,18 @@
                     This is H6 text
                 </h6>
             </div>
+            <div class="code-snippet align-center">
+                <h3>
+                    Code example
+                </h3>
+
+
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch1%253E%250A%2520%2520%2520%2520This%2520is%2520H1%2520text%250A%253C%252Fh1%253E%250A%253Ch2%253E%250A%2520%2520%2520%2520This%2520is%2520H2%2520text%250A%253C%252Fh2%253E%250A%253Ch3%253E%250A%2520%2520%2520%2520This%2520is%2520H3%2520text%250A%253C%252Fh3%253E%250A%253Ch4%253E%250A%2520%2520%2520%2520This%2520is%2520H4%2520text%250A%253C%252Fh4%253E%250A%253Ch5%253E%250A%2520%2520%2520%2520This%2520is%2520H5%2520text%250A%253C%252Fh5%253E%250A%253Ch6%253E%250A%2520%2520%2520%2520This%2520is%2520H6%2520text%250A%253C%252Fh6%253E"
+                    style="width: 293px; height: 504px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
             <h1>
                 Small text
             </h1>
@@ -641,6 +694,18 @@
                 <div class="text-xs">
                     This is text-s content
                 </div>
+            </div>
+            <div class="code-snippet align-center">
+                <h3>
+                    Code example
+                </h3>
+
+
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522text-s%2522%253E%250A%2520%2520%2520%2520This%2520is%2520text-s%2520content%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522text-xs%2522%253E%250A%2520%2520%2520%2520This%2520is%2520text-s%2520content%250A%253C%252Fdiv%253E"
+                    style="width: 352px; height: 281px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
             </div>
         </div>
         <div id="list" class="lists-normal">
